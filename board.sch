@@ -14593,13 +14593,6 @@ Source: www.kingbright.com</description>
 <label x="129.54" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CLCK" class="0">
-<segment>
-<pinref part="IC1" gate="D" pin="CLKOUT"/>
-<wire x1="15.24" y1="111.76" x2="12.7" y2="111.76" width="0.1524" layer="91"/>
-<label x="12.7" y="111.76" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="1"/>
@@ -14633,8 +14626,8 @@ Source: www.kingbright.com</description>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="104.14" y1="50.8" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="48.26" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="50.8" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="48.26" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
 <junction x="104.14" y="50.8"/>
 </segment>
 </net>
@@ -14647,8 +14640,8 @@ Source: www.kingbright.com</description>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="68.58" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="104.14" y1="68.58" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="66.04" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="68.58" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="66.04" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
 <junction x="104.14" y="68.58"/>
 </segment>
 </net>
@@ -14661,8 +14654,8 @@ Source: www.kingbright.com</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="104.14" y1="86.36" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="86.36" x2="104.14" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
 <junction x="104.14" y="86.36"/>
 </segment>
 </net>
@@ -14675,8 +14668,8 @@ Source: www.kingbright.com</description>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="104.14" x2="104.14" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="104.14" y1="104.14" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="104.14" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
 <junction x="104.14" y="104.14"/>
 </segment>
 </net>
@@ -14939,6 +14932,15 @@ Source: www.kingbright.com</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,10.16,58.42,U$1,VCC,+5V,,,"/>
+<approved hash="202,1,48.26,137.16,IC1D,OSC2,,,,"/>
+<approved hash="202,1,15.24,124.46,IC1D,TX0RTS,,,,"/>
+<approved hash="202,1,15.24,127,IC1D,TX1RTS,,,,"/>
+<approved hash="202,1,15.24,129.54,IC1D,TX2RTS,,,,"/>
+<approved hash="104,1,0,60.96,IC1P,VCC,+5V,,,"/>
+<approved hash="104,1,-7.62,60.96,U$2G$2,VCC,+5V,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
