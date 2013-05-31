@@ -2375,10 +2375,10 @@ design rules under a new name.</description>
 <wire x1="68.2625" y1="80.3275" x2="74.2825" y2="80.3275" width="0.762" layer="16"/>
 <via x="53.34" y="35.56" extent="1-16" drill="0.6" shape="square"/>
 <polygon width="0.762" layer="16">
-<vertex x="50.4825" y="91.7575"/>
-<vertex x="50.4825" y="-0.9525"/>
-<vertex x="94.2975" y="-0.9525"/>
-<vertex x="94.2975" y="91.7575"/>
+<vertex x="49.2125" y="91.44"/>
+<vertex x="49.2125" y="-0.9525"/>
+<vertex x="93.0275" y="-0.9525"/>
+<vertex x="93.0275" y="91.44"/>
 </polygon>
 <contactref element="SV2" pad="2"/>
 <contactref element="C5" pad="1"/>
