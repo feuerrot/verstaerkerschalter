@@ -1,0 +1,12 @@
+main.lst
+main.obj
+main.cof
+main.list
+main.map
+main.eep.hex
+main.bin
+*.o
+usbdrv/*.o
+main.s
+usbdrv/oddebug.s
+usbdrv/usbdrv.s
