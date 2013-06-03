@@ -12,7 +12,7 @@ Chaosdorf anzuschließen.
 ## Layout und so
 
 ### Schaltplan
-![Schaltplan der Verstärkerschaltung](https://raw.github.com/feuerrot/verstaerkerschalter/master/img/schaltplan.png)
+![Schaltplan der Verstärkerschaltung](https://raw.github.com/feuerrot/verstaerkerschalter/can_vcc_smps/img/schaltplan.png)
 
 ### Layout
-![Layout der Verstärkerschaltung](https://raw.github.com/feuerrot/verstaerkerschalter/master/img/board.png)
+![Layout der Verstärkerschaltung](https://raw.github.com/feuerrot/verstaerkerschalter/can_vcc_smps/img/board.png)
